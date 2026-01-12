@@ -1,0 +1,9 @@
+words: {}
+
+exempt: []
+
+# How many days back /banword history is visible in chat
+# Older entries are hidden but NOT deleted
+history-visible-days: 14
+
+history: {}
