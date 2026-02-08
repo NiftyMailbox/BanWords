@@ -1,0 +1,12 @@
+name: BanWords
+version: 1.0
+main: me.plugin.banwords.BanWords
+api-version: '1.21'
+author: UncommonWindmill
+commands:
+  banword:
+    description: Manage banned words
+    usage: /banword
+permissions:
+  banwords.admin:
+    default: op

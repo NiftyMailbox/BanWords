@@ -1,0 +1,66 @@
+# =========================================
+# Banned Words Config
+# =========================================
+# Format:
+# words:
+#   word:
+#     type: mute | ban
+#     duration: time
+
+words:
+  poop:
+    type: mute
+    duration: 10m
+
+  butt:
+    type: ban
+    duration: 5m
+
+  damn:
+    type: ban
+    duration: 5m
+
+
+# =========================================
+# Exempt Players
+# =========================================
+# Players listed here will not be punished
+
+exempt:
+  - AdminGuy
+  - Owner123
+
+
+# =========================================
+# History Visibility
+# =========================================
+
+# How many days back /banword history is visible in chat
+# Older entries are hidden but NOT deleted
+history-visible-days: 14
+
+
+# =========================================
+# Punishment History
+# =========================================
+# Used by:
+# /banword history
+# /banword get <player>
+
+history:
+  Steve:
+    - word: poop
+      type: mute
+      duration: 10m
+      time: 1700000000000
+
+    - word: butt
+      type: ban
+      duration: 5m
+      time: 1700500000000
+
+  Alex:
+    - word: butt
+      type: ban
+      duration: 5m
+      time: 1700600000000
